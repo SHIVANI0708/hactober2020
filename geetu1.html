@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Personal info</legend>
+			<label>Name: <input type="text" name="name"></label><br>
+			<label>DOB: <input type="date" name="birth"></label><br>
+		    <label>Father's Name: <input type="text" name="name"></label><br>
+			<label>Mother's Name: <input type="text" name="name"></label><br>
+			Gender: <input type="radio" name="Gender" value="Male">Male
+				<input type="radio" name="Gender" value="Female">Female
+				<input type="radio" name="Gender" value="Other">Other
+			<br>
+			<label>Email: <input type="email" name="email"></label><br>
+			<label>Mobile no.: <input type="tel" name="mobile no." pattern="[0,9]"></label><br>
+			College: <select name="College">
+				<option value="ABES Engineering College" checked="true">ABES Engineering College</option>
+				<option value="AKG Engineering College">AKG Engineering College</option>
+				<option value="KIET Engineering College">KIET Engineering College</option>
+				<option value="RKG Engineering College">RKG Engineering College</option>
+				<option value="Jaypee Engineering College">Jaypee Engineering College</option>
+				<option value="Sunderdeep Engineering College">Sunderdeep Engineering College</option>
+			</select><br>
+		    City: <select name="city">
+		     	<option value="GHAZIABAD" checked="true">GHAZIABAD</option>
+				<option value="NOIDA">NOIDA</option>
+				<option value="GREATER NOIDA">GREATER NOIDA</option>
+				<option value="DELHI">DELHI</option>
+				<option value="MERRUT">MERRUT</option>
+				<option value="FARIDABAD">FARIDABAD</option>
+			</select><br>
+			Browser<input list="browsers">
+          <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist><br>
+  GoogleSearch <input type="search" name="search"><br>
+  Choose file <input type="file" name="files">
+
+        </fieldset>
+	</form>
+
+</body>
+</html>
